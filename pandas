@@ -1,0 +1,94 @@
+pandas == used for data analysis 
+it built on numpy only
+
+for :
+1.visualization purpose
+2.main datastructure inpanda
+  a.serires  list 1D array  it should be homogenous but any data type
+  b.dataframe like table 2D matrix
+  age salary
+  12   1213
+  13   342234
+  here age is series 
+  and  salary is series
+  
+ ==============================================================================================================
+ series:
+ 
+ import pandas
+ s=pandas.series([1,2,3,4,5])
+ type(s) ==>  int
+ 
+ 
+ 
+ =============================================================================================================
+ 
+DataFrame : very useful datastructure 
+import pandas
+
+col1=[1,2,3,4]
+col2=['a','b','c','d']
+m=zip(col1,col2)
+
+frame1=pandas.DataFrame(data=m,columns=['rollnumber','name'])
+
+or 
+frame2=pandas.DataFrame({'rollnumber':col1 ,'name':col2})
+
+both will give same output
+
+
+
+
+====================================================================================================
+  operation on dataframe :
+  1.df.drop('column_name', axis=1, inplace=True)
+
+2.df.sort_values(by='colname')
+
+Read csv file:
+
+ff=pandas.read_csv("path")
+ff is dtaframe
+
+===========================================================================================================================================
+pivot table  
+
+it is siginificance table that is it will go to  store results to analysis
+
+exmp if you wnat see mean of group of a columns then 
+
+marks  mean
+eng    23.0
+math   34.3
+
+here table we have with students marks individually 
+
+
+the above result is pivot table
+
+
+
+============================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
