@@ -13,18 +13,58 @@ validation data:
 
 it is part of training data only by which continously 
 
+=============================================================
+evaluation mean evalute our function to know how much it is good
+
+Experimental Evalutions:
+1.error
+2.accuracy
+3.recall/precision
 
 
 
+===============================================================
+1.ERROR:
+types in measuring error:
+a.absolute error =1/n(sumation of(y^ -y))
+n=number of total samples
+y^ - predicted value
+y - orginal value
+
+b.sum of square error
+=1/n(sumof((y^-y)^2)
+
+
+ ABOVE 2 ARE FOR REGRESSIO PROBLEM
+
+c.number_of_misclassification
+
+=1/n(sumof(teta(Y^,y)))
+
+where teta function will be return 1 uf they are same otherwise 0
 
 
 
+============================================================================================
+confusion matrix  is mainly in classification problem
+
+    pos neg  ===> actual values
+pos  tp   fp
+neg  fn   tn
+accracy=(tp+tn)/(tp+tn +fp+tn)
+
+tp+tn =p(positive)
+fp+tn=n(negative)
 
 
+precision: tp/(tp+fp)  == ratio of true positive to total positive tuples fon by algorithm
+recall: tp/(tp+fn)  i..e p  == ratio of true positive tuples to given(real) positive values
 
 
+see it clear :https://www.google.com/search?q=precision+and+recall+in+data+mining+differences&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi2-sGcnJTjAhVX7XMBHXZDCvcQ_AUIECgB&biw=1185&bih=579#imgrc=whCpkU4YdqZSPM:
 
 
+=====================================================================================================================================
 
 
 
