@@ -41,6 +41,16 @@ print(error)
 
 
 
+ERROR CALCULATION IN REGRESSION PROBLEM:
+ 
+ Mean Absolute Error
+Mean Square Error
+Mean Absolute Percentage Error
+Mean Percentage Error
+
+
+
+
 
 
 
