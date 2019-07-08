@@ -1,0 +1,21 @@
+
+columns selection should be done in iloc method only then we wont get series reshape problem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
